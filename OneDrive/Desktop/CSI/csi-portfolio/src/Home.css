@@ -1,0 +1,47 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    }
+    
+    .home-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    text-shadow: 1px 1px #aaa; /* Add a text shadow */
+    }
+    
+    .home-description {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid black; /* Add a border */
+    border-radius: 10px; /* Add rounded edges */
+    padding: 10px; /* Add some padding */
+    background-color: #fff; /* Add background color */
+    box-shadow: 2px 2px #aaa; /* Add a box shadow */
+    }
+    
+    .home-link {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: 22px;
+    transition: color 0.2s ease-in-out;
+    border: 1px solid black; /* Add a border */
+    border-radius: 10px; /* Add rounded edges */
+    padding: 10px; /* Add some padding */
+    background-color: white;
+    box-shadow: 2px 2px #aaa; /* Add a box shadow */
+    }
+    
+    .home-link:hover {
+    color: #888;
+    background-color: #ddd; /* Change background color on hover */
+    cursor: pointer; /* Add cursor on hover */
+    }

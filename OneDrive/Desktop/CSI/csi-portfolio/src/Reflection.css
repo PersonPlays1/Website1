@@ -1,0 +1,17 @@
+/* Overall Container */
+.reflection {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px; /*increased the padding around the container to add more space from the sides*/
+}
+
+.reflection1 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 50px;
+  background-color: #fff; /* Add background color */
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px; /*increased the padding within the container to add more space between the text and the border*/
+  line-height: 1.8; /*increased the line spacing to make the text more readable*/
+}

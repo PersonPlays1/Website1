@@ -1,0 +1,164 @@
+
+.content {
+  background: linear-gradient(to bottom, #D3D3D3, #ffffff);
+
+  font-family: 'Inter', sans-serif; /* Change the font to 'Inter' */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.nav {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px; /* Increase the padding */
+  box-shadow: 0px 2px 4px #888;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+}
+
+.left-column {
+  display: flex;
+  align-items: center;
+}
+
+.author-name {
+  font-size: 36px; /* Increase the font-size */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  color: white;
+  margin-left: 32px;
+  margin-right: 32px; /* Increase the margin */
+}
+
+.author-name:hover {
+  color: #888;
+}
+
+.author-name.active {
+  color: white;
+}
+
+.right-column {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px; /* Increase the font-size */
+  margin-right: 32px; /* Increase the margin */
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #888;
+}
+
+.active {
+  color: #f2f2f2;
+  background-color: #333;
+}
+
+.reflection-link {
+  font-size: 24px; /* Increase the font-size */
+  color: rgb(255, 255, 255);
+}
+
+.route-content {
+  text-decoration: none;
+  width: 100%;
+  padding: 32px; /* Increase the padding */
+  background-color: #fff;
+}
+
+.insight-text {
+  font-size: 36px; /* Increase the font-size */
+  color: #333;
+}
+
+.personas {
+  image-resolution: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.persona {
+  width: 400px; /* Increase the width */
+  height: 500px; /* Increase the height */
+  margin: 32px; /* Increase the margin */
+  box-shadow: 0px 2px 4px #888;
+  background-color: #fff;
+}
+
+.persona-image {
+  width: 80%;
+  height: 60%;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  border: 5px solid #333; /* Add a border to the image */
+  border-radius: 10px; /* Add rounded edges to the image */
+  box-shadow: 0px 0px 10px #888; /* Add a box-shadow to the image */
+}
+
+.persona-image2 {
+  width: 80%;
+  height: 60%;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  border: 5px solid #333; /* Add a border to the image */
+  border-radius: 10px; /* Add rounded edges to the image */
+  box-shadow: 0px 0px 10px #888; /* Add a box-shadow to the image */
+}
+
+.persona-image3 {
+  width: 80%;
+  height: 60%;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  border: 5px solid #333; /* Add a border to the image */
+  border-radius: 10px; /* Add rounded edges to the image */
+  box-shadow: 0px 0px 10px #888; /* Add a box-shadow to the image */
+}
+
+.persona h3 {
+  text-align: center;
+  display: flex;
+  color: #333;
+  font-size: 36px; /* Increase the font-size */
+}
+
+h3 {
+  padding-top: 70px;
+  font-size: xx-large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  padding: 0px;
+  text-shadow: 1px 1px #aaa; /* Add a text shadow */
+  font-size: xx-large ;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

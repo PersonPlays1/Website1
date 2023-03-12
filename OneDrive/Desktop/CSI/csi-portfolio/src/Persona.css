@@ -1,0 +1,18 @@
+.home-link3 {
+    text-decoration: none;
+    color: black;
+    margin: 20px auto; /* center the link */
+    font-size: 22px;
+    transition: color 0.2s ease-in-out;
+    border: 1px solid black; /* Add a border */
+    border-radius: 10px; /* Add rounded edges */
+    padding: 10px; /* Add some padding */
+    background-color: white;
+    text-align: center;
+    width: 10%;
+    display: block; /* this will make the link block level element, so you can use margin: 0 auto; to center it */
+  }
+
+  .home-link3:hover {
+    color: #888;
+  }
